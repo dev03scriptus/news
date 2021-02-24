@@ -11,7 +11,7 @@ xhr.onload = function () {
             let news = `<div class="card">
                             <div class="card-header" id="${index}">
                                 <h5 class="mb-0">
-                                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapse${index}" aria-expanded="true" aria-controls="collapse${index}">
+                                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse${index}" aria-expanded="true" aria-controls="collapse${index}">
                                     ${element.title}
                                     </button>
                                 </h5>
